@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
+import MobileDetector from './components/MobileDetector'
 
 export const viewport: Viewport = {
   themeColor: "#0052FF",
@@ -84,7 +85,9 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        {children}
+        <MobileDetector>
+          {children}
+        </MobileDetector>
         <Analytics />
       </body>
     </html>
