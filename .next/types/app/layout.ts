@@ -1,4 +1,4 @@
-// File: /Users/ashnouruzi/embbed-wallet-docs/prompt-generator/app/layout.tsx
+// File: /Users/ashnouruzi/env generator/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
