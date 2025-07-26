@@ -3,7 +3,7 @@ import CopyButton from './CopyButton';
 import { Github } from 'lucide-react';
 
 export default function Step1Clone() {
-  const cloneCommand = 'git clone https://github.com/Must-be-Ash/linktree-donate';
+  const cloneCommand = 'git clone https://github.com/Must-be-Ash/baselinks-page';
 
   return (
     <div className="step-container">
@@ -12,7 +12,7 @@ export default function Step1Clone() {
         <div className="flex items-center gap-2">
           <h2 className="step-title">Clone the Repository</h2>
           <a
-            href="https://github.com/Must-be-Ash/linktree-donate"
+            href="https://github.com/Must-be-Ash/baselinks-page"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors bg-gray-600 hover:bg-gray-500 rounded-full p-1.5 flex items-center justify-center"
