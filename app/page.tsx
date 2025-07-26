@@ -4,9 +4,17 @@ import Step1Clone from './components/Step1Clone';
 import Step2CDPKeys from './components/Step2CDPKeys';
 import Step3EnvGenerator from './components/Step3EnvGenerator';
 import Step4CORS from './components/Step4CORS';
+import MobileMessage from './components/MobileMessage';
+import { useMobileDetection } from './hooks/useMobileDetection';
 import { TextShimmer } from '../components/ui/text-shimmer';
 
 export default function EnvGenerator() {
+  const isMobile = useMobileDetection();
+
+  // Show mobile message if on mobile device
+  if (isMobile) {
+    return <MobileMessage />;
+  }
   return (
     <div className="min-h-screen bg-black p-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
