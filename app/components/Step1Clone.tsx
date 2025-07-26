@@ -15,7 +15,7 @@ export default function Step1Clone() {
             href="https://github.com/Must-be-Ash/linktree-donate"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors"
+            className="text-gray-400 hover:text-white transition-colors bg-gray-600 hover:bg-gray-500 rounded-full p-1.5 flex items-center justify-center"
           >
             <Github size={20} />
           </a>

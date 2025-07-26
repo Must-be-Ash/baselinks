@@ -225,7 +225,7 @@ WALLET_ADDRESS=${userInfo.walletAddress}`;
               </div>
 
               <div className="form-row">
-                <label className="form-label">Site URL *</label>
+                <label className="form-label">URL for your BaseLink page*</label>
                 <div className="form-input">
                   <input
                     type="url"
