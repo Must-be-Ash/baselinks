@@ -24,7 +24,7 @@ export default function MobileMessage() {
 
         {/* Message */}
         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-          BaseLinks is designed for desktop use to provide the best experience for setting up your crypto donation page.
+        tip-chain is designed for desktop use to provide the best experience for setting up your crypto donation page.
         </p>
 
         {/* Call to Action */}

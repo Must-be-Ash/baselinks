@@ -20,7 +20,7 @@ export default function EnvGenerator() {
             baseColor="#0052FF"
             shimmerColor="#ffffff"
           >
-            BaseLinks
+            TipChain
           </TextShimmer>
           <p style={{color: '#888888'}} className="text-lg">
             make your own page in 4 simple steps

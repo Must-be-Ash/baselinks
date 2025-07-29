@@ -8,10 +8,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'BaseLinks | Create Your Crypto Donation Page',
+  title: 'tip-chain | Create Your Crypto Donation Page',
   description: 'Generate personalized .env files for your crypto donation links page. Set up your crypto donation page in 4 simple steps.',
   keywords: [
-    "BaseLinks",
+    "tip-chain",
     "Crypto Donation",
     "CDP",
     "Coinbase Developer Platform",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "Donation Page",
     "Environment Variables",
   ],
-  authors: [{ name: "BaseLinks Team" }],
+  authors: [{ name: "tip-chain" }],
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -47,24 +47,24 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   openGraph: {
-    title: "BaseLinks | Create Your Crypto Donation Page",
+    title: "tip-chain | Create Your Crypto Donation Page",
     description: "Generate personalized .env files for your crypto donation links page. Set up your crypto donation page in 4 simple steps.",
     url: "https://tip-chain.com",
-    siteName: "BaseLinks",
+    siteName: "tip-chain",
     type: "website",
     images: [
       {
         url: "https://tip-chain.com/og.png",
         width: 1200,
         height: 630,
-        alt: "BaseLinks - Create Your Crypto Donation Page",
+        alt: "tip-chain - Create Your Crypto Donation Page",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BaseLinks | Create Your Crypto Donation Page",
+    title: "tip-chain | Create Your Crypto Donation Page",
     description: "Generate personalized .env files for your crypto donation links page. Set up your crypto donation page in 4 simple steps.",
     images: ["https://tip-chain.com/og.png"],
   },
@@ -81,7 +81,7 @@ export default function RootLayout({
       <head>
         <meta
           name="fc:miniapp"
-          content='{"version":"1","imageUrl":"https://tip-chain.com/og.png","button":{"title":"Open BaseLinks","action":{"type":"launch_frame","url":"https://tip-chain.com","name":"BaseLinks"}}}'
+          content='{"version":"1","imageUrl":"https://tip-chain.com/og.png","button":{"title":"Open tip-chain","action":{"type":"launch_frame","url":"https://tip-chain.com","name":"tip-chain"}}}'
         />
       </head>
       <body className="antialiased">

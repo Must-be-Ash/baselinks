@@ -1,6 +1,6 @@
-# BaseLinks
+# tip-chain
 
-Create your own crypto donation page in 4 simple steps with BaseLinks. This tool helps you generate personalized `.env` files for your crypto donation links page using the Coinbase Developer Platform (CDP).
+Create your own crypto donation page in 4 simple steps with tip-chain. This tool helps you generate personalized `.env` files for your crypto donation links page using the Coinbase Developer Platform (CDP).
 
 ## 🚀 Quick Start
 
