@@ -49,12 +49,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BaseLinks | Create Your Crypto Donation Page",
     description: "Generate personalized .env files for your crypto donation links page. Set up your crypto donation page in 4 simple steps.",
-    url: "https://BaseLinks.xyz",
+    url: "https://tip-chain.com",
     siteName: "BaseLinks",
     type: "website",
     images: [
       {
-        url: "https://BaseLinks.xyz/og.png",
+        url: "https://tip-chain.com/og.png",
         width: 1200,
         height: 630,
         alt: "BaseLinks - Create Your Crypto Donation Page",
@@ -66,9 +66,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BaseLinks | Create Your Crypto Donation Page",
     description: "Generate personalized .env files for your crypto donation links page. Set up your crypto donation page in 4 simple steps.",
-    images: ["https://BaseLinks.xyz/og.png"],
+    images: ["https://tip-chain.com/og.png"],
   },
-  metadataBase: new URL("https://BaseLinks.xyz"),
+  metadataBase: new URL("https://tip-chain.com"),
 };
 
 export default function RootLayout({
@@ -81,7 +81,7 @@ export default function RootLayout({
       <head>
         <meta
           name="fc:miniapp"
-          content='{"version":"1","imageUrl":"https://BaseLinks.xyz/og.png","button":{"title":"Open BaseLinks","action":{"type":"launch_frame","url":"https://BaseLinks.xyz","name":"BaseLinks"}}}'
+          content='{"version":"1","imageUrl":"https://tip-chain.com/og.png","button":{"title":"Open BaseLinks","action":{"type":"launch_frame","url":"https://tip-chain.com","name":"BaseLinks"}}}'
         />
       </head>
       <body className="antialiased">
